@@ -2,10 +2,6 @@ Let's revisit our lucky_number function. We want to change it, so that instead o
 This way, the calling line can print the message, or do something else with it if needed. 
 Fill in the blanks to complete the code to make it work.
 
-Q2(Not quite. Remember to use the str() function to convert
-numbers into strings when printing them with text, and to
-call the function with just one parameter, then accept the
-return value into a new variable.)
 
 def lucky_number(name):
   number = len(name) * 9
